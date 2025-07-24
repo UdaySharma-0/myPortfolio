@@ -12,11 +12,11 @@
 <body>
     <header>
         <nav id="home">
-            <span class="navname">Uday.</span>
+            <span class="navname">Uday <span class="dot">.</span></span>
 
             <span class="navitems">
                 <a href="#home">HOME</a>
-                <a href="#about">ABOUT </a>
+                <a href="#about2">ABOUT </a>
                 <a href="#project">PROJECT</a>
                 <a href="#skills">SKILLS</a>
                 <a href="contact.php"><button class="contact-btn">CONTACT US</button></a>
@@ -35,21 +35,32 @@
                 Skilled in HTML5 and CSS3. Let's create something amazing together!
             </p>
             <div class="homebtns">
-                <button class="homebtn1">GET HIRE ME!</button>
-                <button class="homebtn2">SEE MY PROJECTS</button>
+                <a href="contact.php"><button class="homebtn1">GET HIRE ME!</button></a>
+                <a href="#project"><button class="homebtn2">SEE MY PROJECTS</button></a>
             </div>
         </section>
 
 
 
 
+        <h2 class="abouthead1" id="about2"><img src="aboutlogo.jpg" alt="aboutimg" width="50">About Me</h2>
         <section id="about">
-            <h2 class="abouthead1"><img src="aboutlogo.jpg" alt="aboutimg" width="50">About Me</h2>
             <div class="aboutimagecontent">
                 <img src="profile.png" alt="profileimg" width="300">
-                <p class="aboutcontent">I'm a passionate Full Stack Developer with a love for clean code and creative
-                    design. I enjoy solving
-                    problems with JAVA and also love to building responsive web applications.</p>
+                <p class="aboutcontent">
+                    I'm a passionate Full Stack Developer with a love for clean code and creative design. I enjoy solving
+                    problems with JAVA and also love to building responsive web applications. <br>
+                    Interested in working together? I'm available for freelance projects, collaborations, or full-time
+                    opportunities. Let's connect and build something great!
+                </p>
+            </div>
+            <div class="cv-btn-center">
+                <a href="UDAY SHARMA webdeveloper.pdf" style="text-decoration: none;" target="_blank">
+                    <button class="homebtn2 downloadCvbtn">Download My CV</button>
+                </a>
+                <a href="contact.php" style="text-decoration: none;" target="_blank">
+                    <button class="homebtn2 downloadCvbtn">Contact me</button>
+                </a>
             </div>
         </section>
 
@@ -65,15 +76,16 @@
                     <img src="portfolio.png" alt="Project 1" width="250">
                     <h3>Portfolio Website</h3>
                     <p>A modern, responsive personal portfolio website built with HTML and CSS.</p>
-                    <a href="https://github.com/yourusername/portfolio" target="_blank" class="project-link"
-                        style="margin-top: 30px;">View Code</a>
+                    <a href="https://github.com/UdaySharma-0/myPortfolio/blob/main/index.html" target="_blank"
+                        class="project-link" style="margin-top: 30px;">View Code</a>
                 </div>
                 <div class="project-card">
                     <img src="ultraedit.png" alt="Project 2" width="250">
                     <h3>UltraEdit Website</h3>
                     <p>A clone of the UltraEdit website, showcasing modern UI design and responsive layout using HTML
                         and CSS.</p>
-                    <a href="https://github.com/UdaySharma-0/FullStackDevelopment/blob/main/CSS/V24%20Exercise%205/UltraeditWebsite.html" target="_blank" class="project-link">View
+                    <a href="https://github.com/UdaySharma-0/FullStackDevelopment/blob/main/CSS/V24%20Exercise%205/UltraeditWebsite.html"
+                        target="_blank" class="project-link">View
                         Code</a>
                 </div>
             </div>
@@ -98,6 +110,7 @@
                 </div>
             </div>
         </section>
+
 
         <div>
             <a href="#home"> <button><img class="topbtn" src="arrow icon.png" alt="top button" width="40"></button>

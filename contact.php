@@ -48,7 +48,11 @@
 
                 <button type="submit" name="submitbtn" class="contact-submit-btn">Send Message</button><br>
             </form>
-            
+            <div class="cv-btn-center">
+                <a href="UDAY SHARMA webdeveloper.pdf" style="text-decoration: none;" target="_blank">
+                    <button class="homebtn2 downloadCvbtn">Download My CV</button>
+                </a>
+            </div>
         </div>
     </section>
 
