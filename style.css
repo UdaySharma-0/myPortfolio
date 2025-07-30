@@ -29,30 +29,23 @@ nav {
 }
 .dot {
     display: inline-block;
-    animation: bounceRight 1.2s cubic-bezier(.68,-0.55,.27,1.55) 1s;
+    position: relative;
+    left: 430px;
+    animation: bounceLeft 1.3s cubic-bezier(.68,-0.55,.27,1.55) 10ms forwards;
 }
 
-@keyframes bounceRight {
-    0% {
-        transform: translateX(80px);
-        opacity: 0;
-    }
-    60% {
-        transform: translateX(-15px) scale(1.2);
-        opacity: 1;
-    }
-    75% {
-        transform: translateX(8px) scale(0.95);
-    }
-    85% {
-        transform: translateX(-4px) scale(1.05);
-    }
-    100% {
-        transform: translateX(0) scale(1);
-        opacity: 1;
-    }
-}
-
+@keyframes bounceLeft {
+    0%   { transform: translate(0, 0) scaleY(1); }
+    10%  { transform: translate(-50px, -80px) scaleY(0.7); }
+    20%  { transform: translate(-100px, 0) scaleY(1); }
+    30%  { transform: translate(-150px, -60px) scaleY(0.75); }
+    40%  { transform: translate(-200px, 0) scaleY(1); }
+    50%  { transform: translate(-250px, -40px) scaleY(0.8); }
+    60%  { transform: translate(-300px, 0) scaleY(1); }
+    70%  { transform: translate(-350px, -20px) scaleY(0.85); }
+    80%  { transform: translate(-400px, 0) scaleY(1); }
+    100% { transform: translate(-450px, 0) scaleY(1); }
+  }
 .navitems a {
     padding: 2em;
     color: white;
@@ -445,6 +438,10 @@ footer .image p {
         align-items: flex-start;
         padding: 10px 0;
         width: 95vw;
+    }
+    .dot{
+        POSITION: ABSOLUTE;
+        LEFT: 57VH;
     }
 
 
